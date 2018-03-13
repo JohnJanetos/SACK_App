@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mitch.sackapp.home_screen">
+
+    <Button
+        android:id="@+id/home_scenariosButton"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="Scenarios"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/home_dqButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direct Questions"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <Button
+        android:id="@+id/home_consentButton"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:onClick="toConsent"
+        android:text="Consent"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/home_resourcesButton"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Resources"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="317dp" />
+</android.support.constraint.ConstraintLayout>
